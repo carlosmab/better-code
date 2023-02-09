@@ -37,6 +37,7 @@ class Authorizer_SMS(Authorizer):
     def is_authorized(self):
         return self.authorized
     
+    
 
 class PaymentProcessor:
     
